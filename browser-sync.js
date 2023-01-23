@@ -5,5 +5,6 @@ vendor/fonts/inter.css,
 blocks/page/page.css,
 blocks/header/header.css,
 blocks/header/__logo-link/header__logo-link.css,
+blocks/header/__logo-link/_active/header__logo-link_active.css
 blocks/header/__logo/header__logo.css,
 blocks/header/__lang/header__lang.css"

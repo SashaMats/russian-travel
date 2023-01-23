@@ -1,0 +1,7 @@
+.header__logo-link_active {
+  text-decoration: underline;
+}
+
+.header__logo-link_active:hover {
+  opacity: 1;
+}

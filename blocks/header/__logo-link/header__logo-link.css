@@ -12,5 +12,6 @@
 }
 
 .header__logo-link:hover {
-  text-decoration: underline;
+  transition: opacity 0.2s linear;
+  opacity: 0.5;
 }
