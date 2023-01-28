@@ -1,0 +1,30 @@
+.header__wrapper {
+  max-width: 1280px;
+  padding: 28px 48px 0;
+  margin: 0 auto 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media screen and (max-width: 1023px) {
+  .header__wrapper {
+    max-width: 1280px;
+    padding: 28px 24px 0;
+    margin: 0 auto 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header__wrapper {
+    max-width: 1280px;
+    padding: 28px 16px 0;
+    margin: 0 auto 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}

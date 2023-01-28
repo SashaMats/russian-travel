@@ -1,0 +1,19 @@
+.intro {
+  width: 100vw;
+  font-family: "Inter";
+  background-color: #2a2c2f;
+  color: white;
+  padding: 92px 0 92px;
+}
+
+@media screen and (max-width: 1023px) {
+  .intro {
+    padding: 88px 0 88px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .intro {
+    padding: 64px 0 64px;
+  }
+}

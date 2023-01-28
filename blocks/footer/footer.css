@@ -1,0 +1,31 @@
+.footer {
+  width: 100vw;
+  background-color: #2a2c2f;
+  font-family: "Inter";
+  color: white;
+  padding: 5.15% 0 24px;
+}
+
+@media screen and (max-width: 1279px) {
+  .footer {
+    padding: 9% 0 24px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .footer {
+    padding: 5.15% 0 24px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer {
+    padding: 11.5% 0 24px;
+  }
+}
+
+@media screen and (max-width: 709px) {
+  .footer {
+    padding: 20% 0 24px;
+  }
+}

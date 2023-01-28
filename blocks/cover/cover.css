@@ -1,0 +1,24 @@
+.cover {
+  background-color: #2a2c2f;
+  width: 100vw;
+  font-family: "Inter";
+  padding: 8.5% 0 0;
+}
+
+@media screen and (max-width: 1279px) {
+  .cover {
+    padding: 9% 0 0;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .cover {
+    padding: 11.7% 0 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .cover {
+    padding: 20.6% 0 0;
+  }
+}
