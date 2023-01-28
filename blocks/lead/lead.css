@@ -1,5 +1,5 @@
 .lead {
-  width: 100vw;
+  width: 100%;
   padding: 56px 0 0;
   background-color: #2a2c2f;
   color: white;
@@ -7,9 +7,6 @@
 
 @media screen and (max-width: 1023px) {
   .lead {
-    width: 100%;
     padding: 48px 0 0;
-    background-color: #2a2c2f;
-    color: white;
   }
 }

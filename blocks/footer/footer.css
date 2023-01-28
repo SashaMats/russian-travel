@@ -1,5 +1,5 @@
 .footer {
-  width: 100vw;
+  width: 100%;
   background-color: #2a2c2f;
   font-family: "Inter";
   color: white;
@@ -24,7 +24,7 @@
   }
 }
 
-@media screen and (max-width: 709px) {
+@media screen and (max-width: 424px) {
   .footer {
     padding: 20% 0 24px;
   }
