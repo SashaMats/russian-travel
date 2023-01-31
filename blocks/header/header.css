@@ -1,5 +1,35 @@
 .header {
   background-color: #2a2c2f;
-  width: 100%;
-  font-family: "Inter";
+  max-width: 1184px;
+  width: 92.5%;
+  padding-top: 28px;
+  margin: 0 auto 0;
+  font-family: "Inter", "Arial", "Helvetica", sans-serif;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
+
+@media screen and (max-width: 1279px) {
+  .header {
+    width: 90.62%;
+    min-width: 928px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .header {
+    width: 93.5%;
+    min-width: 720px;
+
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header {
+    width: 90%;
+    min-width: 288px;
+    padding-top: 16px;
+  }
+}
+

@@ -1,19 +1,32 @@
 .intro {
-  width: 100%;
-  font-family: "Inter";
+  font-family: "Inter", "Arial", "Helvetica", sans-serif;;
   background-color: #2a2c2f;
   color: white;
   padding: 92px 0 92px;
+  max-width: 984px;
+  width: 76.87%;
+  margin: 0 auto 0;
+}
+
+@media screen and (max-width: 1279px) {
+  .intro {
+    min-width: 924px;
+    width: 90.62%;
+  }
 }
 
 @media screen and (max-width: 1023px) {
   .intro {
-    padding: 88px 0 88px;
+    padding: 89px 0 89px;
+    min-width: 720px;
+    width: 93.75%;
   }
 }
 
 @media screen and (max-width: 767px) {
   .intro {
     padding: 64px 0 64px;
+    min-width: 288px;
+    width: 90%;
   }
 }

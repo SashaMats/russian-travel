@@ -1,4 +1,4 @@
-.header__logo-link {
+.header__link {
   text-decoration: none;
   text-align: center;
   font-style: normal;
@@ -16,7 +16,7 @@
 }
 
 @media screen and (max-width: 767px) {
-  .header__logo-link {
+  .header__link {
     font-size: 18px;
     line-height: 20px;
   }

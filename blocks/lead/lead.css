@@ -1,8 +1,14 @@
 .lead {
   width: 100%;
-  padding: 56px 0 0;
+  padding: 4.5% 0 0;
   background-color: #2a2c2f;
   color: white;
+}
+
+@media screen and (max-width: 1279px) {
+  .lead {
+    padding: 4.7% 0 0;
+  }
 }
 
 @media screen and (max-width: 1023px) {
