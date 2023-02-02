@@ -2,8 +2,13 @@
   background-color: #2a2c2f;
   font-family: "Inter", "Arial", "Helvetica", sans-serif;;
   color: white;
-  padding: 92px 0 0;
-  width: 100%;
+  padding: 94px 0 0;
+}
+
+@media screen and (max-width: 1023px) {
+  .places {
+    padding: 90px 0 0;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -14,6 +19,6 @@
 
 @media screen and (max-width: 320px) {
   .places {
-    padding: 63px 0 0;
+    padding: 65px 0 0;
   }
 }
