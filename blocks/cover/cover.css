@@ -1,7 +1,17 @@
 .cover {
   background-color: #2a2c2f;
+<<<<<<< HEAD
   max-width: 1184px;
   margin: 0 auto 0;
+=======
+<<<<<<< HEAD
+  width: 100%;
+  font-family: "Inter", "Arial", "Helvetica", sans-serif;
+=======
+  max-width: 1184px;
+  margin: 0 auto 0;
+>>>>>>> second_iteration
+>>>>>>> 7c3ada05f92f9ef856416a24fd1da5f318c61577
   padding: 118px 0 0;
   font-family: "Inter", "Arial", "Helvetica", sans-serif;
   position: relative;
