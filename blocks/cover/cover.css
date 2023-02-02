@@ -1,24 +1,39 @@
 .cover {
   background-color: #2a2c2f;
+<<<<<<< HEAD
   width: 100%;
   font-family: "Inter", "Arial", "Helvetica", sans-serif;
+=======
+  max-width: 1184px;
+  margin: 0 auto 0;
+>>>>>>> second_iteration
   padding: 118px 0 0;
+  font-family: "Inter", "Arial", "Helvetica", sans-serif;
+  position: relative;
 }
+
+
 
 @media screen and (max-width: 1279px) {
   .cover {
-    padding: 9% 0 0;
+    padding: 92px 0 0;
+    width: 100%;
+    min-width: 1024px;
   }
 }
 
 @media screen and (max-width: 1023px) {
   .cover {
-    padding: 8% 0 0;
+    padding: 90px 0 0;
+    width: 100%;
+    min-width: 768px;
   }
 }
 
 @media screen and (max-width: 767px) {
   .cover {
-    padding: 11.6% 0 0;
+    padding: 66px 0 0;
+    width: 100%;
+    min-width: 200px;
   }
 }
