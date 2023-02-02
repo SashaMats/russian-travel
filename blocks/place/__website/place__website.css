@@ -5,16 +5,12 @@
 
 @media screen and (max-width: 767px) {
   .place__website { 
-    grid-area: website;
-    align-self: end;
     text-align: center;
   }
 }
 
 @media screen and (max-width: 320px) {
-  .place__website { 
-    grid-area: website;
-    align-self: end;
+  .place__website {
     text-align: left;
   }
 }

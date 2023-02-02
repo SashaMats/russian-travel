@@ -11,10 +11,7 @@
   .place__title {
     font-size: 42px;
     line-height: 46px;
-  }
-
-  .place:nth-child(1) .place__title {
-    width: 70%;
+    width: 97%;
   }
 }
 
@@ -29,14 +26,6 @@
 }
   @media screen and (max-width: 320px) {
     .place__title {
-      font-size: 32px;
-      line-height: 35px;
-      width: 90%;
-      margin: 0 auto 0;
       text-align: left;
-    }
-
-    .place:nth-child(1) .place__title {
-      width: 90%;
     }
 }
