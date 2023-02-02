@@ -1,6 +1,6 @@
 .lead__caption {
   width: 100%;
-  margin: 6px 0 0;
+  margin: 5px 0 0;
   font-weight: 400;
   font-style: normal;
   font-size: 10px;
@@ -20,7 +20,6 @@
 @media screen and (max-width: 767px) {
   .lead__caption {
     width: calc(100% - 5.125%);
-    margin: 0;
-    padding: 5px 0 0 5.125%;
+    padding-left: 5.125%;
   }
 }
