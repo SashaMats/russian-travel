@@ -10,30 +10,23 @@
 
 @media screen and (max-width: 1279px) {
   .intro {
+    min-width: 924px;
     width: 90.62%;
   }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1023px) {
   .intro {
     padding: 89px 0 89px;
-    max-width: 924px;;
+    min-width: 720px;
     width: 93.75%;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .intro {
     padding: 64px 0 64px;
-    max-width: 740px;
-    width: 90%;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .intro {
-    padding: 64px 0 64px;
-    max-width: 288px;
+    min-width: 288px;
     width: 90%;
   }
 }
