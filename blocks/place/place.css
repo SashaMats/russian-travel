@@ -18,7 +18,7 @@
 @media screen and (max-width: 1279px) {
   .place {
     width: 90.6%;
-    min-width: 928px;
+    max-width: 928px;
     gap: 48px 32px;
     margin-bottom: 80px;
     grid-template-columns: 440px 1fr;
@@ -28,7 +28,7 @@
 @media screen and (max-width: 1023px) {
   .place {
     width: 93.75%;
-    min-width: 720px;
+    max-width: 720px;
     gap: 47px 28px;
     grid-template-columns: 340px 1fr;
     margin: 0 auto 72px;
@@ -38,7 +38,6 @@
 @media screen and (max-width: 767px) {
   .place {
     width: 100%;
-    min-width: 320px;
     row-gap: 32px;
     grid-template-columns: repeat(1, 100%);
     grid-template-rows: repeat(4, auto);
@@ -48,5 +47,10 @@
     "image"
     "paragraph";
     margin: 0 auto 50px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place {
   }
 }

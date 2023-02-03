@@ -1,6 +1,5 @@
 .photo-grid {
   background-color: #2a2c2f;
-
   max-width: 1184px;
   width: 92.5%;
   margin: 0 auto 0;
@@ -10,25 +9,27 @@
   grid-template-rows: repeat(3, auto);
 }
 
-@media screen and (max-width: 1279px) {
+@media screen and (max-width: 1280px) {
   .photo-grid{
     width: 90.6%;
+    max-width: 928px;
     gap: 14px;
     grid-template-columns: repeat(3, auto);
     grid-template-rows: repeat(4, auto);
   }
 }
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 1024px) {
   .photo-grid {
     width: 93.7%;
+    max-width: 920px;
     gap: 16px;
     grid-template-columns: repeat(2, auto);
     grid-template-rows: repeat(6, auto);
   }
 }
 
-@media screen and (max-width: 424px) {
+@media screen and (max-width: 425px) {
   .photo-grid {
     width: 90%;
     gap: 12px;
