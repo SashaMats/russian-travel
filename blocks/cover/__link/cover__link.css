@@ -14,8 +14,7 @@
 
  .cover__link::before {
   width: 100%;
-  height: 100%;
-  min-height: 740px;
+  height: 740px;
   display: block;
   position: absolute;
   content: "";
@@ -32,22 +31,35 @@
   .cover__link {
     min-height: 640px;
    }
+
+   .cover__link::before {
+    height: 640px;
+  }
 }
 
 @media screen and (max-width: 1023px) {
   .cover__link {
     min-height: 480px;
    }
+   .cover__link::before {
+    height: 480px;
+  }
 }
 
 @media screen and (max-width: 425px) {
   .cover__link {
     min-height: 265px;
    }
+   .cover__link::before {
+    height: 265px;
+  }
 }
 
 @media screen and (max-width: 320px) {
   .cover__link {
     min-height: 200px;
    }
+   .cover__link::before {
+    height: 200px;
+  }
 }
